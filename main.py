@@ -4,7 +4,7 @@ import time
 import re
 import json
 
-def generate_email_csv(input_file_path):
+def generate_email_csv(input_file_path, apiKey):
     results = []
     with open(input_file_path, mode='r', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
@@ -26,13 +26,13 @@ def generate_email_csv(input_file_path):
                 
                 data = None
                 if first_name and last_name and domain:
-                    url = f"https://api.hunter.io/v2/email-finder?domain={domain}&first_name={first_name}&last_name={last_name}&api_key=aa2dd96dd3108bdb40d01d366e767af438cc17d3"
+                    url = f"https://api.hunter.io/v2/email-finder?domain={domain}&first_name={first_name}&last_name={last_name}&api_key={apiKey}"
                     response = requests.get(url)
                     if response.status_code == 200:
                         data = response.json()
                         # process the data as needed
                     else:
-                        url = f"https://api.hunter.io/v2/domain-search?domain={domain}&api_key=aa2dd96dd3108bdb40d01d366e767af438cc17d3"
+                        url = f"https://api.hunter.io/v2/domain-search?domain={domain}&api_key={apiKey}"
                         response = requests.get(url)
                         if response.status_code == 200:
                             data = response.json()
@@ -41,7 +41,7 @@ def generate_email_csv(input_file_path):
                         #     print(f"Request failed with status code 1 : {response.status_code}")
                         #     continue
                 elif domain:
-                    url = f"https://api.hunter.io/v2/domain-search?domain={domain}&api_key=aa2dd96dd3108bdb40d01d366e767af438cc17d3"
+                    url = f"https://api.hunter.io/v2/domain-search?domain={domain}&api_key={apiKey}"
                     response = requests.get(url)
                     if response.status_code == 200:
                         data = response.json()
@@ -111,8 +111,9 @@ def get_email_data(data):
     
 # start the script
 if __name__ == "__main__":
+    apiKey = "aa2dd96dd3108bdb40d01d366e767af438cc17d3"
     input_file_path = "CEO_Name_and_Linkedin.csv"
-    generate_email_csv(input_file_path)
+    generate_email_csv(input_file_path, apiKey)
 
     # with open('domain_search.json', 'r') as file:
     #     data = json.load(file)
