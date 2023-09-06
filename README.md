@@ -1,1 +1,4 @@
-"# python-email-gen-csv" 
+# python-email-gen-csv 
+
+- pip freeze > requirements.txt
+
