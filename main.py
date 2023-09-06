@@ -3,6 +3,8 @@ import csv
 import time
 import re
 import json
+import os
+from dotenv import load_dotenv
 
 def generate_email_csv(input_file_path, apiKey):
     results = []
@@ -111,10 +113,10 @@ def get_email_data(data):
     
 # start the script
 if __name__ == "__main__":
-    apiKey = "aa2dd96dd3108bdb40d01d366e767af438cc17d3"
+    load_dotenv()
+    apiKey = os.getenv("API_KEY")
     input_file_path = "CEO_Name_and_Linkedin.csv"
-    generate_email_csv(input_file_path, apiKey)
-
+    result = generate_email_csv(input_file_path, apiKey)
     # with open('domain_search.json', 'r') as file:
     #     data = json.load(file)
 
