@@ -1,0 +1,241 @@
+{
+    "data": {
+        "first_name": "Alexis",
+        "last_name": "Ohanian",
+        "email": "alexis@reddit.com",
+        "score": 92,
+        "domain": "reddit.com",
+        "accept_all": true,
+        "position": "Designer",
+        "twitter": null,
+        "linkedin_url": null,
+        "phone_number": null,
+        "company": "Reddit",
+        "sources": [
+            {
+                "domain": "hunter.io",
+                "uri": "http://hunter.io/api",
+                "extracted_on": "2023-08-14",
+                "last_seen_on": "2023-08-23",
+                "still_on_page": true
+            },
+            {
+                "domain": "redditblog.blogspot.com",
+                "uri": "http://redditblog.blogspot.com/2008/10",
+                "extracted_on": "2023-07-16",
+                "last_seen_on": "2023-07-16",
+                "still_on_page": true
+            },
+            {
+                "domain": "hunter.io",
+                "uri": "http://hunter.io/fr/api/email-finder",
+                "extracted_on": "2023-05-21",
+                "last_seen_on": "2023-07-27",
+                "still_on_page": true
+            },
+            {
+                "domain": "hunter.io",
+                "uri": "http://hunter.io/api/v2/docs",
+                "extracted_on": "2023-05-14",
+                "last_seen_on": "2023-08-15",
+                "still_on_page": true
+            },
+            {
+                "domain": "redditblog.blogspot.com",
+                "uri": "http://redditblog.blogspot.com/2008_10_01_archive.html",
+                "extracted_on": "2023-05-11",
+                "last_seen_on": "2023-08-11",
+                "still_on_page": true
+            },
+            {
+                "domain": "hunter.io",
+                "uri": "http://hunter.io/api/email-finder",
+                "extracted_on": "2022-06-18",
+                "last_seen_on": "2023-08-23",
+                "still_on_page": true
+            },
+            {
+                "domain": "hunter.io",
+                "uri": "http://hunter.io/api-documentation/v2",
+                "extracted_on": "2022-03-17",
+                "last_seen_on": "2023-08-23",
+                "still_on_page": true
+            },
+            {
+                "domain": "redditblog.blogspot.com",
+                "uri": "http://redditblog.blogspot.com/2008",
+                "extracted_on": "2021-08-07",
+                "last_seen_on": "2023-08-07",
+                "still_on_page": true
+            },
+            {
+                "domain": "redditblog.blogspot.com",
+                "uri": "http://redditblog.blogspot.com/2008/12",
+                "extracted_on": "2020-01-12",
+                "last_seen_on": "2023-07-17",
+                "still_on_page": true
+            },
+            {
+                "domain": "redditblog.blogspot.com",
+                "uri": "http://redditblog.blogspot.com/2007/10",
+                "extracted_on": "2019-10-13",
+                "last_seen_on": "2023-07-19",
+                "still_on_page": true
+            },
+            {
+                "domain": "reddit.blogspot.com",
+                "uri": "http://reddit.blogspot.com/2008/10",
+                "extracted_on": "2018-12-24",
+                "last_seen_on": "2023-07-13",
+                "still_on_page": true
+            },
+            {
+                "domain": "reddit.blogspot.com",
+                "uri": "http://reddit.blogspot.com/2007/08",
+                "extracted_on": "2018-11-02",
+                "last_seen_on": "2023-07-13",
+                "still_on_page": true
+            },
+            {
+                "domain": "reddit.blogspot.com",
+                "uri": "http://reddit.blogspot.com/2007/10",
+                "extracted_on": "2018-11-02",
+                "last_seen_on": "2023-07-15",
+                "still_on_page": true
+            },
+            {
+                "domain": "reddit.blogspot.com",
+                "uri": "http://reddit.blogspot.com/2008",
+                "extracted_on": "2018-11-02",
+                "last_seen_on": "2023-07-13",
+                "still_on_page": true
+            },
+            {
+                "domain": "reddit.blogspot.com",
+                "uri": "http://reddit.blogspot.com/2008/06",
+                "extracted_on": "2018-09-02",
+                "last_seen_on": "2023-07-13",
+                "still_on_page": true
+            },
+            {
+                "domain": "whouses.io",
+                "uri": "http://whouses.io/domains/reddit.com/contacts",
+                "extracted_on": "2020-03-14",
+                "last_seen_on": "2020-06-14",
+                "still_on_page": false
+            },
+            {
+                "domain": "redditblog.com",
+                "uri": "http://redditblog.com/2007/10/20/draw-the-alien-get-24hrs-of-quasi-fame",
+                "extracted_on": "2018-10-19",
+                "last_seen_on": "2021-08-12",
+                "still_on_page": false
+            },
+            {
+                "domain": "redditblog.com",
+                "uri": "http://redditblog.com/2008/10/22/widgets-get-an-upgrade-and-a-firefox-extension-that-will-rock-your-world",
+                "extracted_on": "2018-10-19",
+                "last_seen_on": "2021-08-12",
+                "still_on_page": false
+            },
+            {
+                "domain": "redditblog.blogspot.fr",
+                "uri": "http://redditblog.blogspot.fr/2007",
+                "extracted_on": "2017-09-21",
+                "last_seen_on": "2019-05-10",
+                "still_on_page": false
+            },
+            {
+                "domain": "redditblog.blogspot.fr",
+                "uri": "http://redditblog.blogspot.fr/2008",
+                "extracted_on": "2017-09-21",
+                "last_seen_on": "2019-05-07",
+                "still_on_page": false
+            },
+            {
+                "domain": "reddit.blogspot.com.tr",
+                "uri": "http://reddit.blogspot.com.tr/2007_08_01_archive.html",
+                "extracted_on": "2017-09-20",
+                "last_seen_on": "2019-02-23",
+                "still_on_page": false
+            },
+            {
+                "domain": "reddit.blogspot.com.tr",
+                "uri": "http://reddit.blogspot.com.tr/2008_06_01_archive.html",
+                "extracted_on": "2017-08-26",
+                "last_seen_on": "2019-05-07",
+                "still_on_page": false
+            },
+            {
+                "domain": "reddit.blogspot.fr",
+                "uri": "http://reddit.blogspot.fr/2008/06/we-have-winner.html",
+                "extracted_on": "2017-07-12",
+                "last_seen_on": "2019-05-14",
+                "still_on_page": false
+            },
+            {
+                "domain": "reddit.blogspot.fr",
+                "uri": "http://reddit.blogspot.fr/2008/10/aliens-invading-ars-technica.html",
+                "extracted_on": "2017-05-29",
+                "last_seen_on": "2019-05-23",
+                "still_on_page": false
+            },
+            {
+                "domain": "reddit.blogspot.fr",
+                "uri": "http://reddit.blogspot.fr/2007/08/save-our-earth-and-drink-fiji-bottled.html",
+                "extracted_on": "2017-05-27",
+                "last_seen_on": "2019-05-23",
+                "still_on_page": false
+            },
+            {
+                "domain": "reddit.blogspot.fr",
+                "uri": "http://reddit.blogspot.fr/2008/10/will-real-reddit-please-stand-up.html",
+                "extracted_on": "2017-05-04",
+                "last_seen_on": "2019-05-04",
+                "still_on_page": false
+            },
+            {
+                "domain": "redditblog.com",
+                "uri": "http://redditblog.com/2008/12/01/vector-art-really-is-a-limiting-medium-for-reddit-alien-creation",
+                "extracted_on": "2016-10-25",
+                "last_seen_on": "2021-08-12",
+                "still_on_page": false
+            },
+            {
+                "domain": "reddit.blogspot.fr",
+                "uri": "http://reddit.blogspot.fr/2007_08_01_archive.html",
+                "extracted_on": "2016-03-31",
+                "last_seen_on": "2019-05-10",
+                "still_on_page": false
+            },
+            {
+                "domain": "redditblog.com",
+                "uri": "http://redditblog.com/2007_10_01_archive.html",
+                "extracted_on": "2015-06-24",
+                "last_seen_on": "2016-06-11",
+                "still_on_page": false
+            },
+            {
+                "domain": "redditblog.com",
+                "uri": "http://redditblog.com/2008_12_01_archive.html",
+                "extracted_on": "2015-06-24",
+                "last_seen_on": "2016-06-07",
+                "still_on_page": false
+            }
+        ],
+        "verification": {
+            "date": null,
+            "status": "accept_all"
+        }
+    },
+    "meta": {
+        "params": {
+            "first_name": "Alexis",
+            "last_name": "Ohanian",
+            "full_name": null,
+            "domain": "reddit.com",
+            "company": null,
+            "max_duration": null
+        }
+    }
+}
